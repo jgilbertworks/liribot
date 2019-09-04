@@ -93,11 +93,11 @@ Back-End
 1. git clone https://github.com/FredsGitHubAccount/Liri-Bot.git
 2. cd Liri-Bot
 3. npm install 
-4A. node liri.js spotify-this-song '<song name here>'
-4B. node liri.js movie-this '<movie name here>'
-4C. node liri.js my-tweets
-4C. node liri.js do-what-it-says
-5. Review results in the log.txt file or console
+4. node liri.js spotify-this-song '<song name here>'
+5. node liri.js movie-this '<movie name here>'
+6. node liri.js my-tweets
+7. node liri.js do-what-it-says
+8. Review results in the log.txt file or console
 
 ```
 ### Requirements

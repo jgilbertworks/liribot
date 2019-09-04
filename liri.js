@@ -10,7 +10,7 @@ let fs = require('fs')
 
 // credentials
 let spotify = new Spotify(keys.spotify);
-let client = new Twitter(keys.twitter);
+let twitter = new Twitter(keys.twitter);
 
 //terminal
 let userInput = process.argv[2];
@@ -48,31 +48,31 @@ function spotifyAPI(song) {
     });
   }
 
-// Twitter function()
+// Twitter segment
 function twitterAPI() {
-    var params = { screen_name: 'Billtoe' };
-    client.get('statuses/user_timeline', params, function (error, tweets, response) {
-      let j = 0;
-      if (!error) {
+  let params = { screen_name: 'Billtoe96' };
+  twitter.get('statuses/user_timeline', params, function (error, tweets, response) {
+    let j = 0;
+    if (!error) {
 
-        console.log(`bill toe is in the house!Try again`)
-        for (let i = 0; i < 20; i++) {
+      console.log(`Billtoe! try again`)
+      for (let i = 0; i < 5; i++) {
 
-          j++
-          console.log(`The tweet below was posted on ${tweets[i].created_at}`)
-          console.log(`${j} ${tweets[i].text}`);
+        j++
+        console.log(`The tweet below was posted on ${tweets[i].created_at}`)
+        console.log(`${j} ${tweets[i].text}`);
 
 
-          let date = tweets[i].created_at
+        let date = tweets[i].created_at
 
-          let tweet = tweets[i].text
-          fs.appendFile("log.txt", `${`\r`}The tweet below was posted on ${date}${'\r'}${tweet}${'\r'}`, function (err) {
+        let tweet = tweets[i].text
+        fs.appendFile("log.txt", `${`\r`}The tweet below was posted on ${date}${'\r'}${tweet}${'\r'}`, function (err) {
 
-          })
-        }
-
+        })
       }
-    });
+
+    }
+  });
 
 
   }
@@ -82,7 +82,7 @@ function twitterAPI() {
     userInfo = process.argv.slice(3).join("+")
 
     if (userInfo == "") {
-      userInfo = "Mr.Nobody"
+      userInfo = "Ghostbusters"
     }
 
     console.log(userInfo)

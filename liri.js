@@ -50,7 +50,7 @@ function spotifyAPI(song) {
 
 // Twitter segment
 function twitterAPI() {
-  let params = { screen_name: 'Billtoe96' };
+  let params = { screen_name: 'billtoe95' };
   twitter.get('statuses/user_timeline', params, function (error, tweets, response) {
     let j = 0;
     if (!error) {

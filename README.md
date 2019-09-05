@@ -8,13 +8,13 @@ In this assignment, you will make LIRI. LIRI is like iPhone’s SIRI. However, w
 
 Make it so liri.js can take in one of the following commands:
 
-my-tweets
+1) my-tweets
 
-spotify-this-song
+2) spotify-this-song
 
-movie-this
+3) movie-this
 
-do-what-it-says
+4) do-what-it-says
 
 What Each Command Should Do
 
@@ -79,6 +79,10 @@ In addition to logging the data to your terminal/bash window, output the data to
 
 Make sure you append each command you run to the log.txt file.
 
+Your log should look something like this
+
+   ![my-tweets](https://github.com/jgilbertworks/liribot/blob/master/images/Screen%20Shot%202019-09-04%20at%204.26.25%20PM.png?raw=true "liribot")
+   
 Do not overwrite your file each time you run a command.
 
 ### Technologies

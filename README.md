@@ -56,7 +56,7 @@ This will output the following information to your terminal/bash window:
    * Plot of the movie.
    * Actors in the movie.
    
-   ![movie-this](https://raw.github.com/jgilbertworks/liribot/tree/master/images/Screen Shot 2019-09-04 at 4.26.40 PM.png?raw=true "liribot")
+   ![movie-this](https://raw.github.com/jgilbertworks/liribot/blob/master/images/Screen%20Shot%202019-09-04%20at%204.26.40%20PM.png?raw=true "liribot")
    
 If the user doesn’t type a movie in, the program will output data for the movie ‘Ghostbusters.’
 

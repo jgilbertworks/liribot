@@ -22,7 +22,7 @@ Twitter
 
 will list the 5 most recent tweets from 'Bill toe96" user account. 
 
-Artist(s)
+Spotify Artist(s)
 
 The song’s name
 
@@ -31,6 +31,10 @@ A preview link of the song from Spotify
 The album that the song is from
 
 If no song is provided then your program will default to “The Sign” by Ace of Base.
+
+Your spotify API call shoul lokk like this.
+
+![spotify-this-song](https://github.com/jgilbertworks/liribot/blob/master/images/Screen%20Shot%202019-09-04%20at%205.50.05%20PM.png?raw=true "liribot")
 
 You will utilize the node-spotify-api package in order to retrieve song information from the Spotify API.
 

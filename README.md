@@ -56,6 +56,8 @@ This will output the following information to your terminal/bash window:
    * Plot of the movie.
    * Actors in the movie.
    
+   ![movie-this](/../<liribot>/images/Screen Shot 2019-09-04 at 4.26.40 PM.png?raw=true "Optional Title")
+   
 If the user doesn’t type a movie in, the program will output data for the movie ‘Ghostbusters.’
 
 If you haven’t watched “Ghostbusters,” then you should: http://www.imdb.com/title/tt0485947/

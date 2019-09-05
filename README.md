@@ -20,7 +20,9 @@ What Each Command Should Do
 
 Twitter
 
-will list the 5 most recent tweets from 'Bill toe96" user account. 
+will list the 5 most recent tweets from any user account. 
+
+![my-tweets](https://github.com/jgilbertworks/liribot/blob/master/images/Screen%20Shot%202019-09-04%20at%205.58.43%20PM.png?raw=true "liribot")
 
 Spotify Artist(s)
 
